@@ -1,0 +1,5 @@
+requests==2.31.0
+flask==3.0.0
+git+https://github.com/dep-confused-owner-xyz123/internal-auth-lib.git@main#egg=internal-auth-lib
+git+https://github.com/abandonedorg-test-abc/private-config.git
+git+https://github.com/slaxorg/totally-nonexistent-private-repo

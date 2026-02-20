@@ -1,17 +1,15 @@
 {
-  "name": "test-vulnerable-app",
+  "name": "testingrepo",
   "version": "1.0.0",
-  "description": "Test fixture with unpublished packages for Dependency Confusion scanning",
-  "private": true,
+  "description": "Test repo for dependency confusion scanning",
   "dependencies": {
-    "react": "^18.2.0",
-    "express": "^4.18.2",
-    "internal-billing-core": "^2.4.0",
-    "proprietary-auth-token-gen": "^1.0.1"
+    "some-lib": "github:dep-confused-owner-xyz123/some-lib",
+    "private-utils": "git+https://github.com/abandonedorg-test-abc/private-utils.git",
+    "legacy-sdk": "git+https://github.com/slaxorg/non-existent-private-sdk"
   },
-  "devDependencies": {
-    "typescript": "^5.0.0",
-    "@my-company-internal/ui-components": "^3.1.0",
-    "legacy-system-connector": "^0.0.5"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orphaned-pkg-owner-99x/testingrepo.git"
+  },
+  "homepage": "https://github.com/another-dead-user-55z/testingrepo#readme"
 }
